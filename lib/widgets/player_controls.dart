@@ -3,6 +3,8 @@ import 'package:provider/provider.dart';
 import '../providers/audio_provider.dart';
 
 class PlayerControls extends StatelessWidget {
+  const PlayerControls({super.key});
+
   @override
   Widget build(BuildContext context) {
     final audioProvider = Provider.of<AudioProvider>(context);

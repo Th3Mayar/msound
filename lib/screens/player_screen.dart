@@ -4,6 +4,8 @@ import '../providers/audio_provider.dart';
 import '../widgets/player_controls.dart';
 
 class PlayerScreen extends StatelessWidget {
+  const PlayerScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
